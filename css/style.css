@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,500');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+:root {
+    --lexgreen: #32d87d; 
+    --lexgreendark: #24a05c;
+    --lexgrey: #262626;
+    --lexgreydark: #191919;
+}
+
+body {
+    font-family: 'Roboto';
+    background: var(--lexgrey);
+}
+
+nav {
+    height: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.getstarted {
+    height: 370px;
+    background: var(--lexgreen);
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gs-right {
+    height: 370px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.gs-right img {
+    width: 340px;
+}
+
+.getstarted button {
+    height: 40px;
+    border: none;
+    width: 160px;
+    background: white;
+    color: var(--lexgreen);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.downloads button {
+    height: 40px;
+    border: none;
+    width: 160px;
+    background: var(--lexgreen);
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.downloads button:hover {
+    background: var(--lexgreendark);
+    transition: 300ms background;
+}
+
+.d-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d-right img {
+    width: 570px;
+}
+
+.gs-left {
+    height: 370px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+}
+
+p {
+    font-size: 19px;
+    color: white;
+    font-weight: 300;
+}
+
+.n-left {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.n-left img {
+    width: 220px;
+}
+
+.btn-left {
+    margin-left: 30px;
+}
+
+.n-right {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.currval {
+    height: 220px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--lexgreen);
+    padding-left: 70px;
+    color: white;
+    font-weight: 400;
+    padding-right: 70px;
+    font-size: 30px;
+}
+
+.idea {
+    height: 100px; 
+    display: flex;
+    color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: var(--lexgreen);
+}
+
+.idea h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.c-left {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.c-right {
+    display: flex;
+    height: 220px;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.c-right img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.c-right span {
+    background: white;
+    color: var(--lexgreen);
+    width: 200px;
+    height: 55px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.n-right ul {
+    margin-right: 30px;
+}
+
+.n-right ul li {
+    list-style: none;
+    display: inline-block;
+    color: var(--lexgreen);
+    font-size: 18px;
+    margin: 0px 20px 0px 20px;
+    font-weight: 300;
+}
+
+.downloads {
+    height: 400px;
+    display: grid;
+    padding-left: 70px;
+    color: white;
+    grid-template-columns: 1fr 1fr;
+}
+
+.d-left, .d-right {
+    height: 400px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.banner img {
+    width: 470px;
+}
+
+.about {
+    height: 300px;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.a-left {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.a-right {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.ai {
+    width: 100px;
+}
+
+.aii {
+    width: 150px;
+    margin-left: 40px;
+}
+
+.aiii {
+    margin-left: 40px;
+    width: 200px;
+}
+
+footer {
+    height: 340px;
+}
