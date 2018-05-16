@@ -223,7 +223,7 @@ p {
 }
 
 .about {
-    height: 300px;
+    height: 340px;
     color: white;
     padding-left: 70px;
     padding-right: 70px;
@@ -232,14 +232,14 @@ p {
 }
 
 .a-left {
-    height: 300px;
+    height: 340px;
     display: flex;
     align-items: center;
     align-content: center;
 }
 
 .a-right {
-    height: 300px;
+    height: 340px;
     display: flex;
     align-items: center;
     align-content: center;
