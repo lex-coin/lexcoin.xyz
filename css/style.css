@@ -261,5 +261,27 @@ p {
 }
 
 footer {
-    height: 340px;
+    margin-top: 40px;
+    padding-left: 70px;
+    color: white;
+    padding-right: 70px;
+}
+
+.f-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+hr {
+    margin-top: 70px;
+    border-color: var(--lexgreen);
+}
+
+footer img {
+    width: 32px;
+}
+
+.f-bar {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
