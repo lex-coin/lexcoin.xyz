@@ -61,7 +61,7 @@ nav {
 .downloads button {
     height: 40px;
     border: none;
-    width: 160px;
+    width: 140px;
     background: var(--lexgreen);
     color: white;
     font-weight: 400;
@@ -284,4 +284,70 @@ footer img {
 .f-bar {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .downloads img {
+        display: none;
+    }
+
+    .downloads {
+        display: block;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav ul {
+        display: none !important;
+    }
+
+    .getstarted img {
+        display: none;
+    }
+
+    .getstarted {
+        display: block;
+    }
+
+    .f-grid {
+        display: block;
+    }
+
+    .f-grid > div {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .currval h2 {
+        display: none;
+    }
+
+    .currval {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .banner img {
+        width: 320px;
+    }
+}
+
+.hamburger {
+    display: none !important;
 }
