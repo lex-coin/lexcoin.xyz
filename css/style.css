@@ -23,6 +23,7 @@ body {
 nav {
     height: 130px;
     display: grid;
+    margin-right: 10px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -302,10 +303,16 @@ footer img {
     .about {
         display: block;
     }
+    .n-right ul {
+        display: none !important;
+    }
+    .hamburger {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 900px) {
-    nav ul {
+    .n-right ul {
         display: none !important;
     }
 
@@ -324,9 +331,18 @@ footer img {
     .f-grid > div {
         margin-top: 30px;
     }
+
+    .hamburger {
+        display: block !important;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+
+    .hamburger {
+        display: block !important;
+    }
+
     .currval h2 {
         display: none;
     }
@@ -348,6 +364,23 @@ footer img {
     }
 }
 
-.hamburger {
-    display: none !important;
+@media only screen and (min-width: 1050px) {
+    .hamburger {
+        display: none !important;
+    }
 }
+
+.resp {
+    display: none;
+    position: fixed;
+    top: 90px;
+    right: 23px;
+    color: var(--lexgreen);
+    text-align: right;
+}
+
+.resp li {
+    list-style: none;
+    margin-top: 5px;
+}
+
